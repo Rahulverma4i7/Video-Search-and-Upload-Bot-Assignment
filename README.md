@@ -2,12 +2,19 @@
 
 A Python-based bot that searches, downloads, and uploads videos from social media platforms.
 
+## Installation
+
+1. Clone the repository
+2. Install dependencies using `pip install -r requirements.txt`.
+
 ## 🎯 Objective
+
 Create a bot to download videos from Instagram, TikTok, and Reddit, then upload them to our server using provided APIs.
 
 ## 📋 Requirements
 
 ### Core Features
+
 - Search and download videos from specified platforms
 - Upload videos via API endpoints
 - Auto-delete local files after upload
@@ -17,6 +24,7 @@ Create a bot to download videos from Instagram, TikTok, and Reddit, then upload 
 ### API Integration
 
 1. Get Upload URL:
+
 ```
 Endpoint: https://api.socialverseapp.com/posts/generate-upload-url
 Headers: {
@@ -26,9 +34,11 @@ Headers: {
 ```
 
 2. Upload Video:
+
 - Use pre-signed URL with PUT request
 
 3. Create Post:
+
 ```
 Endpoint: https://api.socialverseapp.com/posts
 Headers: {
@@ -44,6 +54,7 @@ Body: {
 ```
 
 ### Technical Requirements
+
 - Python
 - asyncio for concurrent operations
 - tqdm for progress bars
@@ -51,6 +62,7 @@ Body: {
 - Directory monitoring
 
 ## 📁 Basic Project Structure
+
 ```
 video-bot/
 ├── main.py                # Main script
@@ -61,12 +73,14 @@ video-bot/
 ## 📝 Submission Guidelines
 
 ### Code Repository
+
 - Complete GitHub repository
 - Clear documentation
 - Proper code structure
 - Detailed README.md
 
 ### Video Presentation (5 min max)
+
 - Project setup instructions
 - Code walkthrough
 - Self-introduction
@@ -75,29 +89,34 @@ video-bot/
 ## 📊 Evaluation Criteria
 
 ### Code Quality (30%)
+
 - Organization and structure
 - Readability
 - Performance optimization
 - Best practices implementation
 
 ### Functionality (40%)
+
 - Video search implementation
 - Upload mechanism
 - Error handling
 - Feature completeness
 
 ### Documentation (15%)
+
 - Setup instructions
 - Usage guidelines
 - Code comments
 - README quality
 
 ### Presentation (15%)
+
 - Clear explanation
 - Technical understanding
 - Time management
 
 ## ✅ Verification
+
 1. Download Empowerverse App ([Android](https://play.google.com/store/apps/details?id=com.empowerverse.app) | [iOS](https://apps.apple.com/us/app/empowerverse/id6449552284))
 2. Navigate to "Super Feed" category
 3. Hold category and click Browse
